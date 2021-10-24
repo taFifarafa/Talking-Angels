@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('bg_img.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container3 {
+    height: 540px;
+    flex-basis: 390px;
+    background: transparent;
+    
+}
+
+.wrapper3 {
+    margin: 1.4rem;
+}
+
+.title3 {
+    margin-top: 3rem;
+}
+
+.input-area3 {
+    position: relative;
+    margin-top: 3rem;
+    height: 3rem;
+    width: 100%;
+}
+
+.input-area3 input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+.input-area3 label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-1rem);
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.password-show-btn3 {
+    margin-top: 0.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.password-show-btn3 input {
+    height: 0.9rem;
+    width: 0.9rem;
+    outline: none;
+}
+
+.password-show-btn3 label {
+    margin-left: 0.3rem;
+    color: #eee;
+}
+
+.button-area3 {
+    margin-top: 2.6rem;
+}
+
+.button-area3 button {
+    height: 3rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    background: #77b309;
+    border-radius: 0.1rem;
+}
+
+.signup-link3 {
+    margin-top: 3.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-link3 p {
+    color: #fff;
+}
+
+.signup-link3 p a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.signup-link3 p a:hover {
+    color: #a3ee0c;
+}
